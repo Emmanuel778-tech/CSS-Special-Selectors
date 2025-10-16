@@ -12,4 +12,22 @@
 }
 
 /* Add your CSS styles below this line */
+a {
+    background-color: rgb(255, 143, 103);
+    padding: 15px;
+    text-decoration: none;
+    color:aliceblue;
+    border-radius: 10%;
+    border: 20px;
+}
 
+p:hover::after {
+    content: "now $29!";
+    margin-left: 10px;
+    color: rgba(255, 155, 61, 0.853);
+}
+
+a:hover {
+    border: 15px;
+    color:rgb(234, 158, 99)
+}
