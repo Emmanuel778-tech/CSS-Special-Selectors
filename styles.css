@@ -1,5 +1,9 @@
+ul {
+    list-style:none;
+}
+
 li:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(119, 119, 119);
 }
 
 li:hover {
@@ -11,4 +15,25 @@ li:hover {
 li:active {
     background-color: springgreen;
     font-style: italic;
+}
+
+li::before {
+    content: "☑️";
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+li:hover::after {
+    content: "Pick me!!!";
+    margin-left: 10px;
+    background-color: ghostwhite;
+}
+
+li:active::before {
+    content: "✅";
+}
+
+li:active::after {
+    content: "Yay!!!";
+    background-color: lawngreen;
 }
