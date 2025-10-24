@@ -24,10 +24,20 @@ a {
 p:hover::after {
     content: "now $29!";
     margin-left: 10px;
-    color: rgba(255, 155, 61, 0.853);
+    color: rgba(238, 14, 14, 0.853);
 }
 
 a:hover {
     border: 15px;
-    color:rgb(234, 158, 99)
+    color:rgb(234, 158, 99);
+    background-color: rgb(253, 228, 219);
+    border: 2px solid coral;
 }
+
+a:active {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
